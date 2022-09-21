@@ -20,3 +20,4 @@ var yazarAd : String = "John Ronald Reuel"
 var yazarSoyad : String = "Tolkien"
 var turAdi : String = "Fantastik Kurgu"
 
+      

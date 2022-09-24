@@ -8,12 +8,12 @@ class Assignment {
         return fahrenheit
     }
    
-    func secondQuestion ( firstEdge :Int, secondEdge : Int ) -> Int {
+    func secondQuestion ( firstEdge :Int, secondEdge : Int ){
         
         var environment : Int = 2 * (firstEdge + secondEdge)
-        return environment
+        print("Second Question Answer : ", environment)
     }
-    
+ 
     func thirdQuestion ( number : Int ) -> Int{
         var test: Int = 1
         for i in 0..<(number-1) {
@@ -22,14 +22,14 @@ class Assignment {
         return test
     }
  
-    func fourthQuestion (word :String, letter :String) -> Int{
+    func fourthQuestion (word :String, letter :String) {
         var number : Int = 0
         for i in word{
             if letter.contains(i){
                 number += 1
             }
         }
-        return number
+        print("Fourth Question Answer : ",number)
     }
    
     func fifthQestion(numberOfEdges : Int) -> Int{
@@ -68,17 +68,15 @@ class Assignment {
 }
 
 var firstAnswer = Assignment().firstQuestion(degree: 11.0)
-var secondAnswer = Assignment().secondQuestion(firstEdge: 10, secondEdge: 4)
+var secondAnswer: () = Assignment().secondQuestion(firstEdge: 10, secondEdge: 4)
 var thirdAnswer = Assignment().thirdQuestion(number: 6)
-var fourthAnswer = Assignment().fourthQuestion(word: "kabasakal", letter: "a")
+var fourthAnswer: () = Assignment().fourthQuestion(word: "kabasakal", letter: "a")
 var fifthAnswer = Assignment().fifthQestion(numberOfEdges: 5)
 var sixthAnswer = Assignment().sixthQuestion(day: 42)
 var seventhAnswer = Assignment().seventhQuenstion(quotaAmount: 60)
 
 print("First Question Answer : ", firstAnswer)
-print("Second Question Answer : ", secondAnswer)
 print("Third Question Answer : ", thirdAnswer)
-print("Fourth Question Answer : ", fourthAnswer)
 print("Fifth Question Answer : ",fifthAnswer)
 print("Sixth Question Answer : ",sixthAnswer, "TL")
 print("Seventh Question Answer : ", seventhAnswer)

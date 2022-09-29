@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6sf-V0-o4D">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="WSm-vS-DtO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6sf-V0-o4D" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="S8O-Hp-XTn">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kct-Dy-XZP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Vb-xA-BoF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1573" y="32"/>
+        </scene>
+        <!--Başlık-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Assignment3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Roast Coffee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3g-af-F1a">
+                                <rect key="frame" x="77.666666666666657" y="418" width="260.66666666666674" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="LzJ-nt-B45"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 calories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z44-26-W5R">
+                                <rect key="frame" x="167" y="480" width="82" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="dCM-lA-2OK"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="82" id="keg-iJ-ks0"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="23" id="w8h-uC-Y1K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jR-p7-clk">
+                                <rect key="frame" x="0.0" y="533" width="390" height="154.33333333333337"/>
+                                <string key="text">    At the darker end is our cherished Starbucks® Italian Roast, expertly crafted to bring out a sweet depth of flavor with notes of dark cocoa and toasted marshmallow.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.7 Stars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sc1-sA-9be">
+                                <rect key="frame" x="29" y="741" width="67" height="73.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="67" id="5bY-8G-4iU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="uYu-vJ-P5V">
+                                <rect key="frame" x="104" y="741" width="94" height="73.666666666666629"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 20.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLj-j9-N9K">
+                                <rect key="frame" x="275" y="765.33333333333337" width="86" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="86" id="WP0-ZY-OiU"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="73" id="g9P-RA-f2d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Featured Starbucks ®" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PT4-jZ-5Lx">
+                                <rect key="frame" x="66.666666666666657" y="363" width="294.33333333333337" height="38"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="32"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="Y35-wd-tz2">
+                                <rect key="frame" x="66.666666666666657" y="103" width="256.66666666666674" height="224"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.0078431372549019607" green="0.58039215686274503" blue="0.38431372549019605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PT4-jZ-5Lx" secondAttribute="trailing" constant="29" id="00T-1S-zVi"/>
+                            <constraint firstItem="J3g-af-F1a" firstAttribute="centerX" secondItem="Z44-26-W5R" secondAttribute="centerX" id="5Wt-XR-adG"/>
+                            <constraint firstItem="9jR-p7-clk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7Gw-ky-8vR"/>
+                            <constraint firstItem="Y35-wd-tz2" firstAttribute="leading" secondItem="PT4-jZ-5Lx" secondAttribute="leading" id="7r5-Jx-GkL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9jR-p7-clk" secondAttribute="trailing" id="BZr-bF-EWS"/>
+                            <constraint firstItem="J3g-af-F1a" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="19" id="CVR-6J-EYa"/>
+                            <constraint firstItem="Sc1-sA-9be" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="DgZ-a8-5sw"/>
+                            <constraint firstItem="9jR-p7-clk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GNP-gF-Wv9"/>
+                            <constraint firstItem="9jR-p7-clk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IK2-j6-v8h"/>
+                            <constraint firstItem="uYu-vJ-P5V" firstAttribute="leading" secondItem="Sc1-sA-9be" secondAttribute="trailing" constant="8" symbolic="YES" id="NAt-dL-ULm"/>
+                            <constraint firstItem="J3g-af-F1a" firstAttribute="top" secondItem="PT4-jZ-5Lx" secondAttribute="bottom" constant="17" id="PZ9-Ga-OYq"/>
+                            <constraint firstItem="ZLj-j9-N9K" firstAttribute="leading" secondItem="uYu-vJ-P5V" secondAttribute="trailing" constant="77" id="Qjh-NO-HNW"/>
+                            <constraint firstItem="Z44-26-W5R" firstAttribute="top" secondItem="J3g-af-F1a" secondAttribute="bottom" constant="16" id="TzV-t9-xEQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9jR-p7-clk" secondAttribute="bottom" constant="122.66666666666663" id="UXt-IX-NCJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZLj-j9-N9K" secondAttribute="trailing" constant="29" id="W1k-Dd-ECV"/>
+                            <constraint firstItem="PT4-jZ-5Lx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="272" id="Wmk-ei-pht"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PT4-jZ-5Lx" secondAttribute="trailing" id="Ydg-Ih-PLD"/>
+                            <constraint firstItem="Sc1-sA-9be" firstAttribute="top" secondItem="uYu-vJ-P5V" secondAttribute="top" id="aTi-4J-9Pc"/>
+                            <constraint firstItem="Y35-wd-tz2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="bQQ-y7-gns"/>
+                            <constraint firstItem="9jR-p7-clk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="188.16666666666674" id="bhI-4h-Ehc"/>
+                            <constraint firstItem="Z44-26-W5R" firstAttribute="centerX" secondItem="9jR-p7-clk" secondAttribute="centerX" constant="13" id="cgt-bX-phM"/>
+                            <constraint firstItem="Z44-26-W5R" firstAttribute="top" secondItem="J3g-af-F1a" secondAttribute="bottom" constant="16" id="d5W-OG-RB1"/>
+                            <constraint firstItem="PT4-jZ-5Lx" firstAttribute="top" secondItem="Y35-wd-tz2" secondAttribute="bottom" constant="36" id="eVh-kX-fNM"/>
+                            <constraint firstItem="Sc1-sA-9be" firstAttribute="top" secondItem="9jR-p7-clk" secondAttribute="bottom" constant="53.666666666666629" id="fec-RU-T0g"/>
+                            <constraint firstItem="Sc1-sA-9be" firstAttribute="bottom" secondItem="uYu-vJ-P5V" secondAttribute="bottom" id="ijG-u6-7Lu"/>
+                            <constraint firstItem="J3g-af-F1a" firstAttribute="top" secondItem="PT4-jZ-5Lx" secondAttribute="bottom" constant="17" id="mVh-A7-lia"/>
+                            <constraint firstItem="Sc1-sA-9be" firstAttribute="firstBaseline" secondItem="ZLj-j9-N9K" secondAttribute="firstBaseline" constant="-27" id="nLp-xM-RKA"/>
+                            <constraint firstItem="PT4-jZ-5Lx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="J3g-af-F1a" secondAttribute="leading" constant="-11" id="vDz-bT-zcf"/>
+                            <constraint firstItem="9jR-p7-clk" firstAttribute="top" secondItem="Z44-26-W5R" secondAttribute="bottom" constant="8" id="vM0-YK-TqD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y35-wd-tz2" secondAttribute="trailing" constant="66.670000000000002" id="xUC-mz-8Rt"/>
+                            <constraint firstItem="9jR-p7-clk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ysD-je-tmg"/>
+                            <constraint firstItem="Sc1-sA-9be" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9jR-p7-clk" secondAttribute="leading" id="zkn-O9-lrx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Başlık" id="6Jf-aQ-Iir"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-515.38461538461536" y="31.990521327014218"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coffee" width="250" height="319.5"/>
+        <image name="stars" width="254.5" height="73.5"/>
+        <namedColor name="yaziRenk2">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

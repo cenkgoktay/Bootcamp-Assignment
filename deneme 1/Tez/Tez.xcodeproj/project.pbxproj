@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D610635C290718FE000DF7E6 /* YemekDetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610635B290718FE000DF7E6 /* YemekDetayPresenter.swift */; };
+		D610635F29071979000DF7E6 /* YemekDetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610635E29071979000DF7E6 /* YemekDetayRouter.swift */; };
+		D6106361290719D0000DF7E6 /* YemekDetayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6106360290719D0000DF7E6 /* YemekDetayProtocols.swift */; };
+		D610636329071A5E000DF7E6 /* YemekDetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610636229071A5E000DF7E6 /* YemekDetayInteractor.swift */; };
+		D6447E90290AE69F00A267D2 /* YemekDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6447E8F290AE69F00A267D2 /* YemekDetayVC.swift */; };
+		D6447E99290C784000A267D2 /* SepetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6447E98290C784000A267D2 /* SepetPresenter.swift */; };
+		D6447E9B290C78B400A267D2 /* SepetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6447E9A290C78B400A267D2 /* SepetRouter.swift */; };
+		D6447E9D290C7F3C00A267D2 /* SepetProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6447E9C290C7F3C00A267D2 /* SepetProtocols.swift */; };
+		D6447E9F290C7FA800A267D2 /* SepetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6447E9E290C7FA800A267D2 /* SepetInteractor.swift */; };
+		D6447EA1290C7FFC00A267D2 /* SepetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6447EA0290C7FFC00A267D2 /* SepetVC.swift */; };
+		D6447EA3290C827000A267D2 /* TableViewSepet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6447EA2290C827000A267D2 /* TableViewSepet.swift */; };
+		D6447EA5290DB16200A267D2 /* SepetYemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6447EA4290DB16200A267D2 /* SepetYemekler.swift */; };
+		D6447EA7290DB21D00A267D2 /* SepetYemeklerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6447EA6290DB21D00A267D2 /* SepetYemeklerCevap.swift */; };
+		D6AE2EE8291036AB00A2451F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE2EE7291036AB00A2451F /* FirstViewController.swift */; };
+		D6CC67872905B47C00285097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC67862905B47C00285097 /* AppDelegate.swift */; };
+		D6CC67892905B47C00285097 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC67882905B47C00285097 /* SceneDelegate.swift */; };
+		D6CC678E2905B47C00285097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CC678C2905B47C00285097 /* Main.storyboard */; };
+		D6CC67902905B47E00285097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CC678F2905B47E00285097 /* Assets.xcassets */; };
+		D6CC67932905B47E00285097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CC67912905B47E00285097 /* LaunchScreen.storyboard */; };
+		D6CC679F2905B5A200285097 /* Urunler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC679E2905B5A200285097 /* Urunler.swift */; };
+		D6CC67A12905B6F200285097 /* UrunlerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC67A02905B6F200285097 /* UrunlerCevap.swift */; };
+		D6CC67A92905B96A00285097 /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC67A82905B96A00285097 /* AnasayfaPresenter.swift */; };
+		D6CC67AB2905BABC00285097 /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC67AA2905BABC00285097 /* AnasayfaInteractor.swift */; };
+		D6CC67AD2905BCA600285097 /* AnasayfaProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC67AC2905BCA600285097 /* AnasayfaProtocols.swift */; };
+		D6CC67AF2905BD1300285097 /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC67AE2905BD1300285097 /* AnasayfaRouter.swift */; };
+		D6CC67B12905C33600285097 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC67B02905C33600285097 /* AnasayfaVC.swift */; };
+		D6CC67B32905CAF500285097 /* TableViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CC67B22905CAF500285097 /* TableViewHucre.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D610635B290718FE000DF7E6 /* YemekDetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayPresenter.swift; sourceTree = "<group>"; };
+		D610635E29071979000DF7E6 /* YemekDetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayRouter.swift; sourceTree = "<group>"; };
+		D6106360290719D0000DF7E6 /* YemekDetayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayProtocols.swift; sourceTree = "<group>"; };
+		D610636229071A5E000DF7E6 /* YemekDetayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayInteractor.swift; sourceTree = "<group>"; };
+		D6447E8F290AE69F00A267D2 /* YemekDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayVC.swift; sourceTree = "<group>"; };
+		D6447E98290C784000A267D2 /* SepetPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetPresenter.swift; sourceTree = "<group>"; };
+		D6447E9A290C78B400A267D2 /* SepetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetRouter.swift; sourceTree = "<group>"; };
+		D6447E9C290C7F3C00A267D2 /* SepetProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetProtocols.swift; sourceTree = "<group>"; };
+		D6447E9E290C7FA800A267D2 /* SepetInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetInteractor.swift; sourceTree = "<group>"; };
+		D6447EA0290C7FFC00A267D2 /* SepetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetVC.swift; sourceTree = "<group>"; };
+		D6447EA2290C827000A267D2 /* TableViewSepet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSepet.swift; sourceTree = "<group>"; };
+		D6447EA4290DB16200A267D2 /* SepetYemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetYemekler.swift; sourceTree = "<group>"; };
+		D6447EA6290DB21D00A267D2 /* SepetYemeklerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetYemeklerCevap.swift; sourceTree = "<group>"; };
+		D6AE2EE7291036AB00A2451F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D6CC67832905B47C00285097 /* Tez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CC67862905B47C00285097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6CC67882905B47C00285097 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6CC678D2905B47C00285097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CC678F2905B47E00285097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CC67922905B47E00285097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CC67942905B47E00285097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CC679E2905B5A200285097 /* Urunler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urunler.swift; sourceTree = "<group>"; };
+		D6CC67A02905B6F200285097 /* UrunlerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunlerCevap.swift; sourceTree = "<group>"; };
+		D6CC67A82905B96A00285097 /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		D6CC67AA2905BABC00285097 /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		D6CC67AC2905BCA600285097 /* AnasayfaProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocols.swift; sourceTree = "<group>"; };
+		D6CC67AE2905BD1300285097 /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		D6CC67B02905C33600285097 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
+		D6CC67B22905CAF500285097 /* TableViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHucre.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CC67802905B47C00285097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6106356290718B2000DF7E6 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D6106360290719D0000DF7E6 /* YemekDetayProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		D6106357290718BE000DF7E6 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D610636229071A5E000DF7E6 /* YemekDetayInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		D6106358290718C5000DF7E6 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D610635B290718FE000DF7E6 /* YemekDetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		D6106359290718CE000DF7E6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D6447E8F290AE69F00A267D2 /* YemekDetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D610635A290718D4000DF7E6 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				D610635E29071979000DF7E6 /* YemekDetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		D6447E91290C775000A267D2 /* sepetdetay-module */ = {
+			isa = PBXGroup;
+			children = (
+				D6447E97290C77F100A267D2 /* tableview */,
+				D6447E96290C77E400A267D2 /* view */,
+				D6447E95290C77DD00A267D2 /* interactor */,
+				D6447E94290C77D700A267D2 /* protocols */,
+				D6447E93290C77D100A267D2 /* router */,
+				D6447E92290C77C900A267D2 /* presenter */,
+			);
+			path = "sepetdetay-module";
+			sourceTree = "<group>";
+		};
+		D6447E92290C77C900A267D2 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D6447E98290C784000A267D2 /* SepetPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		D6447E93290C77D100A267D2 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				D6447E9A290C78B400A267D2 /* SepetRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		D6447E94290C77D700A267D2 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D6447E9C290C7F3C00A267D2 /* SepetProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		D6447E95290C77DD00A267D2 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D6447E9E290C7FA800A267D2 /* SepetInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		D6447E96290C77E400A267D2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D6447EA0290C7FFC00A267D2 /* SepetVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D6447E97290C77F100A267D2 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				D6447EA2290C827000A267D2 /* TableViewSepet.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		D6CC677A2905B47C00285097 = {
+			isa = PBXGroup;
+			children = (
+				D6CC67852905B47C00285097 /* Tez */,
+				D6CC67842905B47C00285097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CC67842905B47C00285097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC67832905B47C00285097 /* Tez.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CC67852905B47C00285097 /* Tez */ = {
+			isa = PBXGroup;
+			children = (
+				D6447E91290C775000A267D2 /* sepetdetay-module */,
+				D6CC679D2905B50700285097 /* anasayfa-module */,
+				D6CC679C2905B4F800285097 /* entity */,
+				D6CC679A2905B4C900285097 /* urundetay-module */,
+				D6CC67862905B47C00285097 /* AppDelegate.swift */,
+				D6CC67882905B47C00285097 /* SceneDelegate.swift */,
+				D6CC678C2905B47C00285097 /* Main.storyboard */,
+				D6CC678F2905B47E00285097 /* Assets.xcassets */,
+				D6CC67912905B47E00285097 /* LaunchScreen.storyboard */,
+				D6CC67942905B47E00285097 /* Info.plist */,
+				D6AE2EE7291036AB00A2451F /* FirstViewController.swift */,
+			);
+			path = Tez;
+			sourceTree = "<group>";
+		};
+		D6CC679A2905B4C900285097 /* urundetay-module */ = {
+			isa = PBXGroup;
+			children = (
+				D610635A290718D4000DF7E6 /* router */,
+				D6106359290718CE000DF7E6 /* view */,
+				D6106358290718C5000DF7E6 /* presenter */,
+				D6106357290718BE000DF7E6 /* interactor */,
+				D6106356290718B2000DF7E6 /* protocols */,
+			);
+			path = "urundetay-module";
+			sourceTree = "<group>";
+		};
+		D6CC679C2905B4F800285097 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC679E2905B5A200285097 /* Urunler.swift */,
+				D6CC67A02905B6F200285097 /* UrunlerCevap.swift */,
+				D6447EA4290DB16200A267D2 /* SepetYemekler.swift */,
+				D6447EA6290DB21D00A267D2 /* SepetYemeklerCevap.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		D6CC679D2905B50700285097 /* anasayfa-module */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC67A72905B90D00285097 /* tableview */,
+				D6CC67A62905B90000285097 /* interactor */,
+				D6CC67A52905B8F700285097 /* protocols */,
+				D6CC67A42905B8ED00285097 /* router */,
+				D6CC67A32905B8E600285097 /* presenter */,
+				D6CC67A22905B8DA00285097 /* view */,
+			);
+			path = "anasayfa-module";
+			sourceTree = "<group>";
+		};
+		D6CC67A22905B8DA00285097 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC67B02905C33600285097 /* AnasayfaVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D6CC67A32905B8E600285097 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC67A82905B96A00285097 /* AnasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		D6CC67A42905B8ED00285097 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC67AE2905BD1300285097 /* AnasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		D6CC67A52905B8F700285097 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC67AC2905BCA600285097 /* AnasayfaProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		D6CC67A62905B90000285097 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC67AA2905BABC00285097 /* AnasayfaInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		D6CC67A72905B90D00285097 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC67B22905CAF500285097 /* TableViewHucre.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CC67822905B47C00285097 /* Tez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CC67972905B47E00285097 /* Build configuration list for PBXNativeTarget "Tez" */;
+			buildPhases = (
+				D6CC677F2905B47C00285097 /* Sources */,
+				D6CC67802905B47C00285097 /* Frameworks */,
+				D6CC67812905B47C00285097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tez;
+			productName = Tez;
+			productReference = D6CC67832905B47C00285097 /* Tez.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CC677B2905B47C00285097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D6CC67822905B47C00285097 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D6CC677E2905B47C00285097 /* Build configuration list for PBXProject "Tez" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CC677A2905B47C00285097;
+			productRefGroup = D6CC67842905B47C00285097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CC67822905B47C00285097 /* Tez */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CC67812905B47C00285097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CC67932905B47E00285097 /* LaunchScreen.storyboard in Resources */,
+				D6CC67902905B47E00285097 /* Assets.xcassets in Resources */,
+				D6CC678E2905B47C00285097 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CC677F2905B47C00285097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CC67AF2905BD1300285097 /* AnasayfaRouter.swift in Sources */,
+				D6CC679F2905B5A200285097 /* Urunler.swift in Sources */,
+				D6447EA5290DB16200A267D2 /* SepetYemekler.swift in Sources */,
+				D6CC67872905B47C00285097 /* AppDelegate.swift in Sources */,
+				D6447E90290AE69F00A267D2 /* YemekDetayVC.swift in Sources */,
+				D6CC67B32905CAF500285097 /* TableViewHucre.swift in Sources */,
+				D6106361290719D0000DF7E6 /* YemekDetayProtocols.swift in Sources */,
+				D6447E9D290C7F3C00A267D2 /* SepetProtocols.swift in Sources */,
+				D610636329071A5E000DF7E6 /* YemekDetayInteractor.swift in Sources */,
+				D6AE2EE8291036AB00A2451F /* FirstViewController.swift in Sources */,
+				D6447EA3290C827000A267D2 /* TableViewSepet.swift in Sources */,
+				D6447E9B290C78B400A267D2 /* SepetRouter.swift in Sources */,
+				D6447EA7290DB21D00A267D2 /* SepetYemeklerCevap.swift in Sources */,
+				D6447E9F290C7FA800A267D2 /* SepetInteractor.swift in Sources */,
+				D6CC67B12905C33600285097 /* AnasayfaVC.swift in Sources */,
+				D6CC67AD2905BCA600285097 /* AnasayfaProtocols.swift in Sources */,
+				D6CC67A12905B6F200285097 /* UrunlerCevap.swift in Sources */,
+				D6CC67A92905B96A00285097 /* AnasayfaPresenter.swift in Sources */,
+				D6CC67892905B47C00285097 /* SceneDelegate.swift in Sources */,
+				D6CC67AB2905BABC00285097 /* AnasayfaInteractor.swift in Sources */,
+				D610635C290718FE000DF7E6 /* YemekDetayPresenter.swift in Sources */,
+				D610635F29071979000DF7E6 /* YemekDetayRouter.swift in Sources */,
+				D6447E99290C784000A267D2 /* SepetPresenter.swift in Sources */,
+				D6447EA1290C7FFC00A267D2 /* SepetVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6CC678C2905B47C00285097 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CC678D2905B47C00285097 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CC67912905B47E00285097 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CC67922905B47E00285097 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CC67952905B47E00285097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6CC67962905B47E00285097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CC67982905B47E00285097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2335D3P7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tez/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenkgoktayy.Tez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CC67992905B47E00285097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2335D3P7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tez/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenkgoktayy.Tez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CC677E2905B47C00285097 /* Build configuration list for PBXProject "Tez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CC67952905B47E00285097 /* Debug */,
+				D6CC67962905B47E00285097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CC67972905B47E00285097 /* Build configuration list for PBXNativeTarget "Tez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CC67982905B47E00285097 /* Debug */,
+				D6CC67992905B47E00285097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CC677B2905B47C00285097 /* Project object */;
+}
